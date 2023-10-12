@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf--8">
+        <title>Week 4 Forms and Tables</title>
+        <style>
+            td,th {border: 1px solid black}
+        </style>
+    </head>
+    <body>
+        <h1>Tables And Forms</h1>
+        <h2>Table</h2>
+        <table>
+            <caption>World Population</caption>
+            <tr>
+                <th>Country</th> <!--th tage is for headers/metadata (data about data) -->
+                <th>Population</th>
+                <th>% Of World Population</th>
+            </tr>
+            <tr>
+                <td>China</td> <!--td is for data -->
+                <td>1,403,830,640</td>
+            </tr>
+
+        </table>
+        <h2>Forms</h2>
+        <form action ="" method:"post">
+            <label for= "fullname"> Tell me your full name: </label><br>
+            <input type="text" id="fullname">
+            <label>Special Instructions:</label>
+            <textarea id= "instructions" name="instructions" rows="3" cols="100"></textarea>
+            <input type="radio" id="pickup" name="pickupdelivery" value="pickup">
+            <label for="pickup">Pickup</label><br>
+            <input type="radio" id="delivery" name="pickupdelivery" value="delivery">
+            <label for="delivery">Delivery</label><br>
+
+            <input type="checkbox" id="extrasauce" name="extrasauce" value="needs extra sauce">
+            
+
+
+
+        </form>
+    </body>
+</html>
+
